@@ -5,6 +5,17 @@ ruby "3.3.0"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3"
 
+gem "haml-rails", "~> 2.0"
+
+gem "html2haml"
+
+# Use SАSS for stylesheets
+gem 'sass-rails'
+
+# Icons fonts
+gem 'font-awesome-sass' 
+gem 'font-awesome-rails'
+
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
